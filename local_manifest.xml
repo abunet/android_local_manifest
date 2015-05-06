@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- CM replacements -->
+    <!-- CM replacements 
     <remove-project name="CyanogenMod/android_frameworks_native" />
     <remove-project name="CyanogenMod/android_frameworks_av" />
 
-    <project path="frameworks/native" name="abunet/android_frameworks_native" revision="cm-11.0" />
-    <project path="frameworks/av" name="abunet/android_frameworks_av" revision="cm-11.0" />
-
+    <project path="frameworks/native" name="abunet/android_frameworks_native" revision="cm-12.1" />
+    <project path="frameworks/av" name="abunet/android_frameworks_av" revision="cm-12.1" />
+    -->
     <!-- Local projects -->
-    <project path="hardware/atheros/wlan" name="abunet/android_hardware_atheros_wlan" revision="cm-11.0" />
-    <project path="hardware/qcom/display-legacy" name="abunet/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-    <project path="hardware/qcom/media-legacy" name="abunet/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+    <project path="hardware/atheros/wlan" name="abunet/android_hardware_atheros_wlan" revision="cm-12.1" />
+    <project path="hardware/qcom/display-caf/msm7x27a" name="abunet/android_hardware_qcom_display-legacy" revision="cm-12.1" />
+    <project path="hardware/qcom/media-caf/msm7x27a" name="abunet/android_hardware_qcom_media-legacy" revision="cm-12.1" />
 
     <!-- FM Radio -->
-    <project path="hardware/qcom/fm-mr1" name="abunet/android_hardware_qcom_fm" revision="cm-11.0" />
-    <project path="packages/apps/FM2" name="abunet/android_packages_apps_FM2" revision="cm-11.0" />
+    <project path="hardware/qcom/fm-mr1" name="abunet/android_hardware_qcom_fm" revision="cm-12.1" />
+    <project path="packages/apps/FM2" name="abunet/android_packages_apps_FM2" revision="cm-12.1" />
 
     <!-- Classic webkit -->
-    <project path="external/webkit" name="abunet/android_external_webkit" revision="cm-11.0" />
+    <project path="external/webkit" name="abunet/android_external_webkit" revision="cm-12.1" />
 </manifest>
