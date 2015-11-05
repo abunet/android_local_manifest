@@ -9,8 +9,8 @@
     -->
     <!-- Local projects -->
     <project path="hardware/atheros/wlan" name="Giugiu19/android_hardware_atheros_wlan" revision="cm-12.1" />
-    <project path="hardware/qcom/display-caf/msm7x27a" name="Giugiu19/android_hardware_qcom_display" revision="cm-12.1" />
-    <project path="hardware/qcom/media-caf/msm7x27a" name="Giugiu19/android_hardware_qcom_media" revision="cm-12.1" />
+    <project path="hardware/qcom/display-caf/msm7x27a" name="Giugiu19/android_hardware_qcom_display" revision="cm-12.1-caf-msm7x27a" />
+    <project path="hardware/qcom/media-caf/msm7x27a" name="Giugiu19/android_hardware_qcom_media" revision="cm-12.1-caf-msm7x27a" />
 
     <!-- FM Radio 
     <project path="hardware/qcom/fm-mr1" name="abunet/android_hardware_qcom_fm" revision="cm-12.1" />
